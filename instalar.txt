@@ -1,0 +1,26 @@
+Mensajeitor - Documentación
+
+Instalación:
+
+1. El servidor donde cuelgues el mensajeitor debe 
+   tener php instalado, por ejemplo www.tripod.es acepta php. 
+
+2. Abre el archivo conf.php con algún editor de texto plano, como por ejemplo el bloc de notas (notepad),
+   modifica las opciones que quieras y guarda los cambios.
+
+3. Sube todos los ficheros en la misma carpeta menos "ejemplo_mensajeitor.html" (súbelo 
+   si quieres para comprobar que funciona).
+
+4. En algunos servidores necesitas darle permisos de escritura al archivo 
+   mensajeitor.txt es decir, chmod 666 (ATENCION: NO EN TODOS LOS SERVIDORES ES NECESARIO O ESTÁ PERMITIDO)
+
+5. Inserta en la página donde quieres que salga el mensajeitor el siguiente código:
+   <iframe marginwidth="0" marginheight="0" src="mensajeitor.php" frameborder="0" width="175" height="325" scrolling="no"></iframe>
+   Si no te aclaras fíjate en el archivo ejemplo_mensajeitor.html
+
+6. Para usar tu nick registrado tendrás que hacer lo siguiente: si la dirección de tu web
+   es http://tuweb.com/ y tienes el archivo mensajeitor.php en el directorio
+   raiz tendrás que poner la siguiente url http://tuweb.com/mensajeitor.php?status=administrator
+
+Si no te aclaras, por favor releete este archivo o el que hay en la sección Documentación de http://www.mensajeitor.com . Si aún así
+no lo consigues puedes entrar en #ayuda_web del irc-hispano, que es el canal oficial y preguntar allí.
